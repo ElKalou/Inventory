@@ -10,7 +10,7 @@ Overall architecture:
 1) Inventories are Unity Scriptable Object that contain a list of Item (also Scriptable Object) and the logic to swap/stack items. Using Scriptable objects here make the creation of inventory or item really interactive and fast. 
 2) When interacting with an ItemContainer (a chest or a merchant) The "Inventory" Scriptable Object is then send to the UserInterface system that will display the inventory items into "ItemSlotUI" component. Depending on the player input the "ItemSlotUI" will send event to other UI panel (OnMouseEnterItemSlot, OnMouseLeaveItemSlot, OnMouseClickOnItemSlot..) using the observer pattern. 
 Using the observer pattern here allow to make the project modular, the ItemSlot do not require the presence of the other UIPanel to operate. 
-3) The extra UIPanel implement the functionnalities of the  inventory. There is 10 panels so far:
+3) The UIPanel implement the functionnalities of the  inventory. There is 10 panels so far:
 - Highlight panel, UI element to highlight the panel when mouse is over
 - Info panel, UI element that display information about the item bellow mouse
 - Drag panel for dragging item around
