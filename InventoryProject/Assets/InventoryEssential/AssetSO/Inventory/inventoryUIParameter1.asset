@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba1778f7028f584aa0409149ae9d171, type: 3}
+  m_Name: inventoryUIParameter1
+  m_EditorClassIdentifier: 
+  _margin: {x: 20, y: 50.28}
+  _extraScale: {x: 40, y: 40}
+  _itemSlotPrefab: {fileID: 1127544709630138, guid: 8805ea47c930d6a43a1d69f4b097d860,
+    type: 3}
+  _spaceBetweenItemSlot: 5
+  _nameHolderPrefab: {fileID: 1960420314310971228, guid: 036e42ef1e5a13b4abdd110abc855afa,
+    type: 3}
+  _moneyHolderPrefab: {fileID: 59945814746127383, guid: d61c228a47598bf4aa7a8eb9cf0f2fdc,
+    type: 3}

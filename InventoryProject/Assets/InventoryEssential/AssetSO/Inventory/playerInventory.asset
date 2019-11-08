@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ae206828f30294b9c95329eb0a0f8a, type: 3}
+  m_Name: playerInventory
+  m_EditorClassIdentifier: 
+  _ownerName: ElKalou
+  _owner: 2
+  _inventoryUIPrefab: {fileID: 1391710681769434, guid: 855b5899d35560a498cb42a61f95228f,
+    type: 3}
+  _updateInventoryUI: {fileID: 11400000, guid: ea5eb381c52e67e49898c0929034413d, type: 2}
+  _money: 180
+  _itemSlots:
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 11400000, guid: 90f6af9eb9386634cae0753b9a9e38ca, type: 2}
+    quantity: 2
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
+  - item: {fileID: 0}
+    quantity: 0
