@@ -1,5 +1,5 @@
 # Inventory
-A basic inventory system for Unity that can be easily plug into any project. A particular attention was given to respect the SOLID principle to make this project adaptable, extendable and debuggable. 
+An inventory system for Unity that can be easily plug into any project. A particular attention was given to respect the SOLID principle to make this project adaptable, extendable and debuggable. 
 
 Main features :
 1) Player can organize his inventory (swap item, stack similar item, drop item on floor..)
